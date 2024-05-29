@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\KGA\\Desktop\\0529server\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C10980A1-7595-0BE0-6E9F-A061603AE54F}|Assembly-CSharp.csproj|C:\\Users\\KGA\\Desktop\\0529server\\assets\\mirror_chat\\scripts\\loginpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C10980A1-7595-0BE0-6E9F-A061603AE54F}|Assembly-CSharp.csproj|solutionrelative:assets\\mirror_chat\\scripts\\loginpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C10980A1-7595-0BE0-6E9F-A061603AE54F}|Assembly-CSharp.csproj|C:\\Users\\KGA\\Desktop\\0529server\\assets\\mirror_chat\\scripts\\chatingui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C10980A1-7595-0BE0-6E9F-A061603AE54F}|Assembly-CSharp.csproj|solutionrelative:assets\\mirror_chat\\scripts\\chatingui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C10980A1-7595-0BE0-6E9F-A061603AE54F}|Assembly-CSharp.csproj|C:\\Users\\KGA\\Desktop\\0529server\\assets\\mirror_chat\\scripts\\networkingmanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C10980A1-7595-0BE0-6E9F-A061603AE54F}|Assembly-CSharp.csproj|solutionrelative:assets\\mirror_chat\\scripts\\networkingmanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C10980A1-7595-0BE0-6E9F-A061603AE54F}|Assembly-CSharp.csproj|c:\\users\\kga\\desktop\\0529server\\assets\\mirror_chat\\scripts\\networkauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C10980A1-7595-0BE0-6E9F-A061603AE54F}|Assembly-CSharp.csproj|solutionrelative:assets\\mirror_chat\\scripts\\networkauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C10980A1-7595-0BE0-6E9F-A061603AE54F}|Assembly-CSharp.csproj|c:\\users\\kga\\desktop\\0529server\\assets\\mirror_chat\\scripts\\networkauth_client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C10980A1-7595-0BE0-6E9F-A061603AE54F}|Assembly-CSharp.csproj|solutionrelative:assets\\mirror_chat\\scripts\\networkauth_client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C10980A1-7595-0BE0-6E9F-A061603AE54F}|Assembly-CSharp.csproj|C:\\Users\\KGA\\Desktop\\0529server\\assets\\mirror_chat\\scripts\\chatuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C10980A1-7595-0BE0-6E9F-A061603AE54F}|Assembly-CSharp.csproj|solutionrelative:assets\\mirror_chat\\scripts\\chatuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NetworkAuth_Client.cs",
+              "DocumentMoniker": "C:\\Users\\KGA\\Desktop\\0529server\\Assets\\Mirror_Chat\\Scripts\\NetworkAuth_Client.cs",
+              "RelativeDocumentMoniker": "Assets\\Mirror_Chat\\Scripts\\NetworkAuth_Client.cs",
+              "ToolTip": "C:\\Users\\KGA\\Desktop\\0529server\\Assets\\Mirror_Chat\\Scripts\\NetworkAuth_Client.cs",
+              "RelativeToolTip": "Assets\\Mirror_Chat\\Scripts\\NetworkAuth_Client.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T06:55:28.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NetworkAuth.cs",
+              "DocumentMoniker": "C:\\Users\\KGA\\Desktop\\0529server\\Assets\\Mirror_Chat\\Scripts\\NetworkAuth.cs",
+              "RelativeDocumentMoniker": "Assets\\Mirror_Chat\\Scripts\\NetworkAuth.cs",
+              "ToolTip": "C:\\Users\\KGA\\Desktop\\0529server\\Assets\\Mirror_Chat\\Scripts\\NetworkAuth.cs",
+              "RelativeToolTip": "Assets\\Mirror_Chat\\Scripts\\NetworkAuth.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T06:18:50.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ChatUser.cs",
+              "DocumentMoniker": "C:\\Users\\KGA\\Desktop\\0529server\\Assets\\Mirror_Chat\\Scripts\\ChatUser.cs",
+              "RelativeDocumentMoniker": "Assets\\Mirror_Chat\\Scripts\\ChatUser.cs",
+              "ToolTip": "C:\\Users\\KGA\\Desktop\\0529server\\Assets\\Mirror_Chat\\Scripts\\ChatUser.cs",
+              "RelativeToolTip": "Assets\\Mirror_Chat\\Scripts\\ChatUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T05:46:05.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChatingUI.cs",
+              "DocumentMoniker": "C:\\Users\\KGA\\Desktop\\0529server\\Assets\\Mirror_Chat\\Scripts\\ChatingUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Mirror_Chat\\Scripts\\ChatingUI.cs",
+              "ToolTip": "C:\\Users\\KGA\\Desktop\\0529server\\Assets\\Mirror_Chat\\Scripts\\ChatingUI.cs",
+              "RelativeToolTip": "Assets\\Mirror_Chat\\Scripts\\ChatingUI.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAEoAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T04:30:01.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NetworkingManger.cs",
+              "DocumentMoniker": "C:\\Users\\KGA\\Desktop\\0529server\\Assets\\Mirror_Chat\\Scripts\\NetworkingManger.cs",
+              "RelativeDocumentMoniker": "Assets\\Mirror_Chat\\Scripts\\NetworkingManger.cs",
+              "ToolTip": "C:\\Users\\KGA\\Desktop\\0529server\\Assets\\Mirror_Chat\\Scripts\\NetworkingManger.cs",
+              "RelativeToolTip": "Assets\\Mirror_Chat\\Scripts\\NetworkingManger.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T02:55:05.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginPopUP.cs",
+              "DocumentMoniker": "C:\\Users\\KGA\\Desktop\\0529server\\Assets\\Mirror_Chat\\Scripts\\LoginPopUP.cs",
+              "RelativeDocumentMoniker": "Assets\\Mirror_Chat\\Scripts\\LoginPopUP.cs",
+              "ToolTip": "C:\\Users\\KGA\\Desktop\\0529server\\Assets\\Mirror_Chat\\Scripts\\LoginPopUP.cs",
+              "RelativeToolTip": "Assets\\Mirror_Chat\\Scripts\\LoginPopUP.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAcwHsAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T02:04:12.905Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

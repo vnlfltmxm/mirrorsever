@@ -95,6 +95,9 @@
     <Compile Include="Assets\Mirror_Chat\Scripts\LoginPopUP.cs" />
     <Compile Include="Assets\Mirror_Chat\Scripts\ChatingUI.cs" />
     <Compile Include="Assets\Mirror_Chat\Scripts\NetworkingManger.cs" />
+    <Compile Include="Assets\Mirror_Chat\Scripts\ChatUser.cs" />
+    <Compile Include="Assets\Mirror_Chat\Scripts\NetworkAuth.cs" />
+    <Compile Include="Assets\Mirror_Chat\Scripts\NetworkAuth_Client.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.dll" />

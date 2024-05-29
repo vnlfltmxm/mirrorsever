@@ -312,6 +312,7 @@ GameObject:
   - component: {fileID: 1463837879}
   - component: {fileID: 1463837878}
   - component: {fileID: 1463837880}
+  - component: {fileID: 1463837881}
   m_Layer: 0
   m_Name: NetworkManger
   m_TagString: Untagged
@@ -345,8 +346,8 @@ MonoBehaviour:
   maxConnections: 100
   disconnectInactiveConnections: 0
   disconnectInactiveTimeout: 60
-  authenticator: {fileID: 0}
-  playerPrefab: {fileID: 0}
+  authenticator: {fileID: 1463837881}
+  playerPrefab: {fileID: 4954204356583485206, guid: b62730cb90454e54fb9b91ac12570427, type: 3}
   autoCreatePlayer: 1
   playerSpawnMethod: 0
   spawnPrefabs: []
@@ -411,6 +412,26 @@ MonoBehaviour:
   debugLog: 0
   statisticsGUI: 0
   statisticsLog: 0
+--- !u!114 &1463837881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1463837877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56924ae9e0eb85c49ac5641a86fa80f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnServerAuthenticated:
+    m_PersistentCalls:
+      m_Calls: []
+  OnClientAuthenticated:
+    m_PersistentCalls:
+      m_Calls: []
+  _loginPopUP: {fileID: 9036837432709646913}
+  _userName: 
 --- !u!1 &2114630242
 GameObject:
   m_ObjectHideFlags: 0
@@ -575,6 +596,14 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3148956193642076456, guid: 129afd1a4b1d88f42b6c80ced3e7ac44, type: 3}
+      propertyPath: sceneId
+      value: 3503126053
+      objectReference: {fileID: 0}
+    - target: {fileID: 4109849977971814857, guid: 129afd1a4b1d88f42b6c80ced3e7ac44, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.00082465465
+      objectReference: {fileID: 0}
     - target: {fileID: 4243081848263420771, guid: 129afd1a4b1d88f42b6c80ced3e7ac44, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -707,22 +736,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2720275957255633383, guid: 0e0c44e5869ba634f869a4aa2a73d867, type: 3}
-      propertyPath: m_Pivot.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2720275957255633383, guid: 0e0c44e5869ba634f869a4aa2a73d867, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2720275957255633383, guid: 0e0c44e5869ba634f869a4aa2a73d867, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2720275957255633383, guid: 0e0c44e5869ba634f869a4aa2a73d867, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 150
-      objectReference: {fileID: 0}
+    - target: {fileID: 4029951820355637196, guid: 0e0c44e5869ba634f869a4aa2a73d867, type: 3}
+      propertyPath: _netManger
+      value: 
+      objectReference: {fileID: 1463837878}
     - target: {fileID: 4305042706756204988, guid: 0e0c44e5869ba634f869a4aa2a73d867, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -813,8 +830,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5550218897166042204, guid: 0e0c44e5869ba634f869a4aa2a73d867, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8694769327832167763, guid: 0e0c44e5869ba634f869a4aa2a73d867, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1463837881}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0e0c44e5869ba634f869a4aa2a73d867, type: 3}
 --- !u!114 &9036837432709646913 stripped
