@@ -28,6 +28,7 @@ public class LoginPopUP : MonoBehaviour
     private void Awake()
     {
         SetDefaultNetworkAddress();
+        Text_Error.gameObject.SetActive(false);
     }
 
     private void Start()
@@ -118,8 +119,15 @@ public class LoginPopUP : MonoBehaviour
 
     public void OnValueChanged_ToggleButton(string userName)
     {
-
+        bool isUsernameValid=!string.IsNullOrWhiteSpace(userName);
+        Btn_StartAsHostServer.interactable = isUsernameValid;
+        Btn_StartAsClient.interactable = isUsernameValid;
     }
 
+    public void SetUIOnAuthError(string msg)
+    {
+        Text_Error.text = msg;
+        Text_Error.gameObject.SetActive(true);
+    }
 
 }
