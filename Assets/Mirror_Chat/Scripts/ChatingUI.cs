@@ -45,7 +45,9 @@ public class ChatingUI : NetworkBehaviour
     {
         if(!_connectNameDic.ContainsKey(sender))
         {
-            //[TODO]var player = sender.identity.GetComponent<ChatUser>();
+            var player = sender.identity.GetComponent<ChatUser>();
+            var playerName = player.PlayerName;
+            _connectNameDic.Add(sender, playerName);
         }
 
         if(!string.IsNullOrWhiteSpace(msg))
@@ -66,6 +68,11 @@ public class ChatingUI : NetworkBehaviour
 
         AppendMessage(formatedMsg);
 
+    }
+
+    public void RemoveNameOnServerDisconnect(NetworkConnectionToClient conn)
+    {
+        _connectNameDic.Remove(conn);
     }
 
     //==============UI===============

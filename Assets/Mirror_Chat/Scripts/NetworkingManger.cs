@@ -16,6 +16,7 @@ public class NetworkingManger : NetworkManager
     {
         if (_chatingUI != null)
         {
+            _chatingUI.RemoveNameOnServerDisconnect(conn);
             //[TODO]_chatingUI.
         }
         base.OnServerDisconnect(conn);
