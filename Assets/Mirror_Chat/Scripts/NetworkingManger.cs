@@ -14,10 +14,20 @@ public class NetworkingManger : NetworkManager
     }
     public override void OnServerDisconnect(NetworkConnectionToClient conn)//서버 디스커넥트 됬을떄
     {
+        if (_chatingUI != null)
+        {
+            //[TODO]_chatingUI.
+        }
         base.OnServerDisconnect(conn);
     }
 
     public override void OnClientDisconnect()//클라 디스커넥트 됬을때
     {
+        base.OnClientDisconnect();
+
+        if(_loginPopUp != null)
+        {
+            _loginPopUp.SetUIOnClientDisconnected();
+        }
     }
 }
